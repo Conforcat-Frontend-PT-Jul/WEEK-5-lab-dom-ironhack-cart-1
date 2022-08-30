@@ -80,7 +80,6 @@ function createEventListener(className, eventType) {
   [].forEach.call(elements, (element) => {
     element.addEventListener(eventType, removeProduct);
   });
-
 }
 
 window.addEventListener('load', () => {
@@ -98,3 +97,4 @@ window.addEventListener('load', () => {
     createProductBtn.addEventListener('click', createProduct);
   }
 });
+//prueba de cambios que no se guardan 
